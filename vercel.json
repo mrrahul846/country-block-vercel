@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "middleware": "middleware"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+
+"Added vercel config"
